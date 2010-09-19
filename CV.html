@@ -1,0 +1,178 @@
+<html>
+	<head>
+		<title>Cody Brocious' CV</title>
+		<style>
+			a {
+				color: #000;
+				font-style: italic;
+				text-decoration: none;
+			}
+			
+			body {
+				font-family: Georgia;
+			}
+			
+			ul {
+				margin-left: -20px;
+				list-style-type: square;
+				//list-style-position: inside;
+			}
+			
+			li {
+				margin-bottom: 2px;
+			}
+			
+			.header {
+				text-align: right;
+				border-bottom: 2px solid #4F6BA8;
+				padding-bottom: 5px;
+				margin-bottom: 20px;
+				color: #06173B;
+			}
+			
+			.header > a, address {
+				font-style: normal;
+				color: #06173B;
+			}
+			
+			.name {
+				position: absolute;
+				font-size: 60px;
+				font-family: Georgia;
+				color: #263E70;
+				text-shadow: 1px 1px 1px #4F6BA8;
+			}
+			
+			.li-key {
+				color: #263E70;
+				font-weight: bold;
+			}
+			
+			.section-header {
+				font-size: 22px;
+				font-weight: normal;
+				vertical-align: top;
+				text-align: right;
+				padding-right: 20px;
+				color: #06173B;
+			}
+			
+			.section {
+				padding-top: 5px;
+				margin-left: 20px;
+				padding-bottom: 10px;
+				font-size: 1em;
+			}
+			
+			.skill {
+				padding-bottom: 5px;
+				display: block;
+			}
+			
+			.job-header {
+				display: block;
+				font-size: 18px;
+			}
+			
+			.position {
+				color: #263E70;
+				font-weight: bold;
+			}
+			
+			.company {
+				font-style: italic;
+			}
+			
+			.timespan {
+				font-style: italic;
+			}
+			
+			.history {
+				//margin-left: -10px;
+				margin-top: 0px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<span class="name">Cody Brocious</span>
+			<address>
+				1464 Hollywell Ave<br>
+				Chambersburg, PA 17201<br>
+				Phone: +1.678.636.9323
+			</address>
+			E-mail: <a href="mailto:cody.brocious@gmail.com">cody.brocious@gmail.com</a><br>
+		</div>
+		
+		<table>
+			<tr>
+				<td class="section-header">Skills</td>
+				<td class="section">
+					<span class="skill"><span class="li-key">Expertise:</span> File format and network protocol reverse-engineering, development and debugging tool development, embedded software development, compiler development, project management.</span>
+					<span class="skill"><span class="li-key">Programming languages:</span> C, Python, x86 assembly, C#, Nemerle, Boo, Ruby, Javascript.</span>
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="section-header">Employment</td>
+				<td class="section">
+					<span class="job-header"><span class="position">Chief Technology Officer</span> &mdash; <span class="company">Unified Platform Management Corporation</span></span>
+					<span class="timespan">December 2008&mdash;Present</span>
+					<ul class="history">
+						<li>Reverse-engineered wire protocols for hotel locks and related peripherals.</li>
+						<li>Implemented a web-based hotel front desk system compatible with the industry leader's devices.</li>
+						<li>Implemented a Python to Javascript compiler that supports macros.</li>
+						<li>Developed comprehensive testing procedures to lower maintenance and support costs.</li>
+					</ul>
+					
+					<span class="job-header"><span class="position">Chief Technology Officer</span> &mdash; <span class="company">Broken Fractal Ventures</span></span>
+					<span class="timespan">September 2007&mdash;December 2008</span>
+					<ul class="history">
+						<li>Implemented an advanced deobfuscator for the obfuscation used in Apple's Quicktime.</li>
+						<li>Reverse-engineered the Apple FairPlay DRM scheme.</li>
+						<li>Implemented a GStreamer plugin to enable the use of FairPlay-encumbered media on Linux.</li>
+						<li>Implemented a GStreamer plugin to allow the easy streaming of music to Apple Airport Express routers on Linux.</li>
+						<li>Implemented a Banshee plugin to allow seamless purchasing from the Amazon MP3 store.</li>
+					</ul>
+					
+					<span class="job-header"><span class="position">Lead Engineer</span> &mdash; <span class="company">Falling Leaf Software</span></span>
+					<span class="timespan">February 2006&mdash;September 2007</span>
+					<ul class="history">
+						<li>Completed initial research into conversion of Windows binaries to Mac OS X.</li>
+						<li>Designed and implemented framework to enable conversion of Windows binaries to OS X and Linux, relinking as necessary.</li>
+						<li>Designed a high-performance, cross-platform intermediary library for use in game porting.</li>
+						<li>Implemented large portions of the Win32 API on top of aforementioned intermediary library.</li>
+						<li>Reverse-engineered the Direct3D 10 shader format.</li>
+						<li>Designed and implemented a recompiler to convert Direct3D 10 shaders into GLSL shaders.</li>
+						<li>Implemented a compatibility library to allow the execution of basic DirectX 10 applications on Windows XP.</li>
+					</ul>
+					
+					<span class="job-header"><span class="position">Software Engineer</span> &mdash; <span class="company">MP3tunes, LLC</span></span>
+					<span class="timespan">May 2005&mdash;July 2007</span>
+					<ul class="history">
+						<li>Developed an iTunes plugin to allow synchronizing music to non-Apple devices.</li>
+						<li>Assisted in the design of a music locker system.</li>
+						<li>Developed iTunes, TiVo, and Winamp plugins to allow seamless locker access.</li>
+						<li>Co-developed an application to synchronize music to/from the locker.</li>
+						<li>Developed a set of debugging and development tools for the Nokia 770 and N800 tablets.</li>
+						<li>Developed a locker playback applet for Nokia tablets.</li>
+					</ul>
+				</td>
+			</tr>
+			
+			<tr>
+				<td class="section-header">Other work</td>
+				<td class="section">
+					<ul>
+						<li><span class="li-key">PyMusique</span> &mdash; First complete open source client for the iTunes Music Store, enabling purchases on Linux.  Covered in Forbes, PCWorld, CNet News.com, and others.</li>
+						<li><span class="li-key">File Format Reversing - Everquest II VPK</span> &mdash; File format reverse-engineering crash course article, published on OpenRCE. <a href="http://www.openrce.org/articles/full_view/16">http://www.openrce.org/articles/full_view/16</a></li>
+						<li><span class="li-key">iPhone Dev Team</span> &mdash; Reverse-engineered various components on the iPhone and worked on the original unlock.</li>
+						<li><span class="li-key">Emokit</span> &mdash; Reverse-engineered the Emotiv EPOC brain-computer interface to enable open, cross-platform development.  Covered in H+ Magazine, Boing Boing, Hack a Day, and others. <a href="http://github.com/daeken/Emokit">http://github.com/daeken/Emokit</a></li>
+						<li><span class="li-key">Renraku</span> &mdash; Pure-managed research OS. <a href="http://github.com/daeken/RenrakuOS">http://github.com/daeken/RenrakuOS</a></li>
+						<li><span class="li-key">Pyvascript</span> &mdash; Python to Javascript compiler supporting macros. <a href="http://github.com/daeken/Pyvascript">http://github.com/daeken/Pyvascript</a></li>
+					</ul>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
